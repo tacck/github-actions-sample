@@ -1,0 +1,30 @@
+name: Bump up versin
+description: 
+title: "[Bump up]: "
+labels: ["release"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Issue for Bump up version
+  - type: dropdown
+    id: version_up_target
+    attributes:
+      label: Version up target
+      description: 
+      options:
+        - build_number
+        - patch_version
+        - minor_version
+        - major_version
+      default: 0
+    validations:
+      required: true
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com). 
+      options:
+        - label: I agree to follow this project's Code of Conduct
+          required: true
