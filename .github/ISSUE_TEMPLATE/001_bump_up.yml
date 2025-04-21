@@ -2,6 +2,8 @@ name: Bump up versin
 description: Bump up versin
 title: "[Bump up]: "
 labels: ["documentation"]
+assignees:
+  - yourself
 body:
   - type: markdown
     attributes:
