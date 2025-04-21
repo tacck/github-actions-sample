@@ -1,7 +1,7 @@
 name: Bump up versin
 description: Bump up versin
 title: "[Bump up]: "
-labels: ["release"]
+labels: ["documentation"]
 body:
   - type: markdown
     attributes:
@@ -17,14 +17,6 @@ body:
         - patch_version
         - minor_version
         - major_version
-      default: 0
+      default: 1
     validations:
       required: true
-  - type: checkboxes
-    id: terms
-    attributes:
-      label: Code of Conduct
-      description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com). 
-      options:
-        - label: I agree to follow this project's Code of Conduct
-          required: true
